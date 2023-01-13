@@ -24,7 +24,27 @@ In order to have this Colab run automatically once a day, we can deploy it to a 
 ## Setup Instructions
 
 1. Download the iPython notebook in this repository and upload it to [Colab](colab.research.google.com) to try it out.
-2. If you want to run this daily, create a Vercel account and add a cron job to this repository to run the notebook once a day
+2. To set up a cron job for a Flask app deployed on Vercel that executes a Google Colab notebook at a given link every hour, you can use the built-in Vercel cron feature. Here are the steps to follow:
+
+i. In your Flask app, import the necessary modules to run the Colab notebook, such as gdown or pyngrok
+ii. Create a new endpoint in your Flask app that triggers the execution of the Colab notebook, using the link to the notebook file.
+iii. Go to the Vercel project settings for your app and navigate to the "Cron" tab.
+iv. Create a new cron job that runs every hour by adding the endpoint you created in step 2 to the "Cron Job" field and select the frequency you want to run the job.
+
+Here is a sample code snippet for step 2:
+
+``python
+
+from flask import Flask, jsonify
+import gdown
+app = Flask(__name__)
+
+@app.route('/run-colab')
+def run_colab():
+    gdown.download('https://drive.google.com/file/d/<colab_notebook_id>', 'colab.ipynb', quiet=False)
+    return jsonify(message='colab notebook ran successfully')
+
+``
 
 ## Credits & More Resources
 
