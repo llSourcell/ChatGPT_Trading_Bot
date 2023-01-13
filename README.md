@@ -2,7 +2,6 @@
 
 This is the code for the "ChatGPT Trading Bot" Video by Siraj Raval on Youtube
 
-![alt text](https://i.ibb.co/4KJx9y0/Screen-Shot-2023-01-13-at-10-04-39-AM.png)
 
 ## Overview
 
@@ -15,6 +14,9 @@ This is the code for this video on Youtube by Siraj Raval on building a ChatGPT 
 5. If the expectd returns are above a certain threshold, buy, else hold. If they're below a certain threshold, sell. (using Alpaca API)
 
 In order to have this Colab run automatically once a day, we can deploy it to a hosting platform like Vercel with a seperate file that repeatedly executes it. 
+
+![alt text](https://i.ibb.co/4KJx9y0/Screen-Shot-2023-01-13-at-10-04-39-AM.png)
+
 
 ## Dependencies 
 
