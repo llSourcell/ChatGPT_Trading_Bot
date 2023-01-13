@@ -2,6 +2,8 @@
 
 This is the code for the "ChatGPT Trading Bot" Video by Siraj Raval on Youtube
 
+![alt text](https://i.ibb.co/4KJx9y0/Screen-Shot-2023-01-13-at-10-04-39-AM.png)
+
 ## Overview
 
 This is the code for this video on Youtube by Siraj Raval on building a ChatGPT trading bot. First, a disclaimer - Do NOT invest any money in any type of trading bot or algorithmic engine that you are not willing to lose. I gave this trading bot $2000 because I was willing to lose $2000 to make a great video for my AI Wizards out there. The entire codebase is contained in a single iPython notebook file, first published by the FinRL team as an example. Inside the notebook, 5 steps are performed.
