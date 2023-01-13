@@ -12,14 +12,14 @@ This is the code for this video on Youtube by Siraj Raval on building a ChatGPT 
 4. Once trained, backtest the predictions on the past 30 days data to compute potential returns with FinRL
 5. If the expectd returns are above a certain threshold, buy, else hold. If they're below a certain threshold, sell. (using Alpaca API)
 
-In order to have this Colab run automatically once a day, we can deploy it to a hosting platform like Vercel with a seperate file that repeatedly executes it. [This](https://vercel.com/guides/how-to-setup-cron-jobs-on-vercel) explains how to do that.
+In order to have this Colab run automatically once a day, we can deploy it to a hosting platform like Vercel with a seperate file that repeatedly executes it. 
 
 ## Dependencies 
 
-- Python 3.7 
-- Alpaca SDK
-- FinRL 
-- Vercel (Optional)
+- [Python 3.7](https://www.python.org/downloads/)
+- [Alpaca SDK](https://alpaca.markets/)
+- [FinRL](https://github.com/AI4Finance-Foundation/FinRL)
+- [Vercel](https://vercel.com)
 
 ## Setup Instructions
 
