@@ -24,6 +24,7 @@ In order to have this Colab run automatically once a day, we can deploy it to a 
 - [Alpaca SDK](https://alpaca.markets/)
 - [FinRL](https://github.com/AI4Finance-Foundation/FinRL)
 - [Vercel](https://vercel.com)
+- [Firebase Template](https://github.com/llSourcell/firebase_react_startup_template) *optional*
 
 ## Setup Instructions
 
